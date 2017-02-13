@@ -1,0 +1,955 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  background-color: #F9F9F9;
+  color: #5a5a5a;
+}
+
+
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 20;
+}
+
+.navbar-wrapper:not(.home-page-nav) {
+  box-shadow: 1px 1px 3px 0 #a2a2a2;
+}
+
+/* Remove navbar-default white background */
+
+.navbar-default {
+  background-color: transparent;
+  border: none;
+}
+
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper > .container {
+  padding-right: 0;
+  padding-left: 0;
+}
+.navbar-wrapper .navbar {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.navbar-wrapper .navbar .container {
+  width: auto;
+}
+.navbar-brand>img {
+  width: 125px;
+}
+.navbar-default .navbar-nav>li>a {
+  color: #292C2F;
+  transition: color .2s, background-color .2s;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+  background-color: transparent;
+  color: #6EBC4B;
+}
+
+.navbar-toggle {
+  border: none;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+  background-color: transparent;
+}
+.navbar-toggle .icon-bar {
+  width: 28px;
+  height: 3px;
+  border-radius: 3px;
+}
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  height: 500px;
+  margin-bottom: 35px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+  color: #292C2F;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 500px;
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 500px;
+}
+.carousel-control {
+  background-image: none !important;
+}
+.carousel-control span {
+  color: #292C2F;
+}
+
+/*Carousel 1*/
+
+#carousel-1 img {
+  top: -200px;
+  height: auto;
+}
+#carousel-1 .carousel-caption {
+  color: #FFF;
+}
+
+@media (max-width: 991px) {
+  #carousel-1 img {
+    top: 0;
+    height: 500px;
+  }
+}
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: normal;
+}
+.marketing .col-lg-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+/* General Styles
+------------------------- */
+
+.circle-icon {
+  display: inline-block;
+  border-radius: 95px;
+  box-shadow: 0px 0px 8px #0080B2;
+  font-size: 95px;
+  padding: 25px;
+  width: 151px;
+  height: 146px;
+  text-align: center;
+  color: #0080B2;
+  background-color: #FFF;
+}
+
+.default-header {
+  width: 100%;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #E1E1E1;
+  margin-top: 90px;
+  background-image: url(../img/backgrounds/valley.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.default-header h2 {
+  font-size: 50px;
+  font-weight: bold;
+  border: 8px solid;
+  padding: 30px 50px;
+  text-transform: uppercase;
+}
+
+.small-title {
+  font-size: 20px;
+  color: #0080B2;
+}
+
+@media (max-width: 767px) {
+  .default-header {
+    margin-top: 105px;
+  }
+}
+
+/* Home Styles
+------------------------- */
+
+.video-container {
+  width: 700px;
+  margin: 0px auto;
+  display: block;
+}
+
+.video-container li {
+  margin: 0 5px;
+}
+
+.video-container .nav-pills li.active a {
+  background-color: #0080B2;
+}
+
+.video-container video {
+  width: 100%;
+  margin: 20px 0 40px 0;
+}
+
+.home-summary {
+  margin-top: 40px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.center-item {
+  margin: 0 auto;
+  display: block;
+}
+
+.green-text {
+  color: #6EBC4B;
+}
+
+.blue-text {
+  color: #0080B2;
+}
+
+.btn-primary {
+  background-color: #0080B2;
+}
+
+/* About Styles
+------------------------- */
+
+.employees {
+  margin: 40px 0 20px 0;
+  text-align: center;
+}
+.employees .featurette-heading {
+  margin: 20px 0 40px 0;
+}
+.employees .employee {
+  height: 300px;
+  margin-top: 5px;
+}
+.employees .circle-icon {
+  font-size: 80px;
+  padding: 23px;
+  width: 130px;
+  height: 130px;
+}
+.employees img.circle-icon {
+  padding: 0;
+}
+.employees-expand {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height .9s;
+}
+.employees-expand.open {
+  max-height: 2500px;
+}
+.employees-button {
+  margin: -20px auto 40px auto;
+}
+
+.history>.col-md-12 {
+  float: none;
+}
+
+/* Services Styles
+------------------------- */
+
+.services {
+  margin-top: 40px;
+}
+.services i {
+  font-size: 12px;
+  top: 8px;
+  left: -18px;
+  position: absolute;
+  color: #0080B2;
+}
+.services p {
+  margin-left: 25px;
+  position: relative;
+}
+.services .light-text {
+  color: #A8A8A8;
+  font-size: 16px;
+}
+
+@media (max-width: 767px) {
+  .services-3-row {
+    text-align: center;
+  }
+}
+
+/* Homes Styles
+------------------------- */
+
+.homes #homesCarousel {
+  margin-top: 40px;
+}
+
+.homes .hide-bullets {
+    list-style:none;
+    margin-left: -40px;
+    margin-top:20px;
+}
+.homes .thumbnail {
+    padding: 0;
+}
+.homes .carousel-inner>.item>img, .carousel-inner>.item>a>img {
+    width: 100%;
+}
+.homes #slider {
+  margin-top: 20px;
+}
+
+#homeImageCarousel .carousel-control {
+  display: none;
+}
+
+.viewport-info {
+  transition: .25s ease-in-out;
+  padding-left: 15px;
+  background: rgba(28, 47, 58, 0.5);
+  height: 100%;
+  width: 100%;
+  position: relative;
+  top: 440px;
+  color: #FFF;
+}
+#homeImageCarousel .item:hover > .viewport-info {
+  top: 350px;
+  background: rgba(28, 47, 58, 0.85);
+}
+.viewport-info .viewport-title {
+  font-size: 20px;
+  padding: 15px 0;
+}
+.viewport-info .viewport-text {
+  font-size: 16px;
+}
+
+@media (max-width: 767px) {
+  #homeImageCarousel .carousel-control {
+    display: block;
+  }
+  .homes #slider-thumbs {
+    display: none;
+  }
+  .viewport-info {
+    top: 350px;
+    background: rgba(28, 47, 58, 0.85);
+  }
+}
+
+@media (max-width: 400px) {
+  .homes .carousel {
+    height: 350px;
+    margin-bottom: 0;
+  }
+  .homes .carousel .item {
+    height: 350px;
+  }
+  .homes .carousel-inner > .item > img {
+    height: 350px;
+  }
+  .homes .viewport-info {
+    top: 200px;
+  }
+}
+
+/* Join Us Styles
+------------------------- */
+
+.join-us {
+  margin-top: 80px;
+  height: 106px;
+  position: relative;
+}
+.join-us-description hr {
+  margin: 10px 0;
+}
+.join-us-title p:first-of-type {
+  font-size: 25px;
+  color: #0080B2;
+}
+.join-us-title p:last-of-type {
+  color: #6EBC4B;
+}
+.join-us-button {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+
+/* FAQ Styles
+------------------------- */
+
+.faq {
+  margin-top: 50px;
+}
+
+.faq-title {
+  text-align: center;
+  border-bottom: 1px solid #C8C8C8;
+  margin: 30px 0;
+  cursor: pointer;
+  font-size: 15px;
+  padding-bottom: 10px;
+}
+.faq-title:hover, .faq-title:active, .faq-title:focus {
+  border-color: #0080B2;
+  text-decoration: none;
+}
+.faq-title i {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 50px;
+}
+
+.faq-info {
+  margin: 20px 0;
+  padding: 20px;
+}
+.faq-info .faq-container {
+
+}
+.faq-info .faq-text {
+  margin: 10px 0 10px 0;
+  font-size: 18px;
+  border-bottom: 1px solid #6EBC4B;
+  padding: 10px 0;
+  cursor: pointer;
+}
+.faq-info .faq-text i {
+  float: right;
+  color: #6EBC4B;
+  transition: transform 0.1s ease-in-out;
+}
+.faq-info .faq-text i.open-faq {
+  transform: rotate(45deg);
+}
+.faq-info .faq-description {
+  padding: 20px 20px;
+  font-size: 18px;
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .faq-title {
+    display: block;
+    margin: 30px;
+  }
+}
+
+/* Form Styles
+------------------------- */
+
+.forms {
+  margin-top: 40px;
+}
+.forms .panel-title {
+  font-size: 20px;
+}
+.forms address {
+  margin-top: 10px;
+}
+
+.form-button-container {
+  padding: 0 20px;
+}
+.form-button {
+  border-color: #0080B2;
+  text-align: left;
+  width: 100%;
+}
+.form-button i {
+  font-size: 40px;
+  margin-right: 10px;
+  vertical-align: top;
+}
+.form-button p {
+  display: inline-block;
+  margin: 0;
+  white-space: normal;
+}
+.form-button p span {
+  font-weight: 300;
+}
+@media (max-width: 767px) {
+  .form-button-container {
+    margin-bottom: 20px;
+  }
+}
+
+/* Contact Styles
+------------------------- */
+
+.contact {
+  margin-top: 80px;
+}
+.contact .featurette-heading {
+  padding: 0 10px;
+}
+.contact iframe {
+  margin: 0 auto;
+  border-radius: 16px;
+  width: 425px;
+  height: 350px;
+}
+@media (max-width: 460px) {
+  .contact iframe {
+    width: 320px;
+    height: 250px;
+  }
+}
+
+.contact-info p {
+  font-size: 20px;
+}
+.contact-info .contact-display {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+@media (max-width: 767px) {
+  .contact-info {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+}
+
+/* Scroll Top Button
+------------------------- */
+
+.scroll-top-button {
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  background-color: #0080B2;
+  box-shadow: 0 0 0 4px white, 
+              inset 0 2px 0 rgba(0, 0, 0, 0.08), 
+              0 3px 0 4px rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  display: none;
+  z-index: 20;
+  -webkit-animation: button-bounce-out 0.6s forwards;
+  -moz-animation: button-bounce-out 0.6s forwards;
+  animation: button-bounce-out 0.6s forwards;
+}
+.scroll-top-button.bounce-in {
+  -webkit-animation: button-bounce 0.6s forwards;
+  -moz-animation: button-bounce 0.6s forwards;
+  animation: button-bounce 0.6s forwards;
+}
+.scroll-top-button i {
+  padding: 7px 8px;
+  font-size: 20px;
+  color: #FFF;
+}
+
+@-webkit-keyframes button-bounce {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(0.5);
+  }
+
+  60% {
+    opacity: 1;
+    -webkit-transform: scale(1.2);
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+  }
+}
+@-moz-keyframes button-bounce {
+  0% {
+    opacity: 0;
+    -moz-transform: scale(0.5);
+  }
+
+  60% {
+    opacity: 1;
+    -moz-transform: scale(1.2);
+  }
+
+  100% {
+    -moz-transform: scale(1);
+  }
+}
+@keyframes button-bounce {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(0.5);
+    -moz-transform: scale(0.5);
+    -ms-transform: scale(0.5);
+    -o-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+
+  60% {
+    opacity: 1;
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+@-webkit-keyframes button-bounce-out {
+  0% {
+    -webkit-transform: scale(1);
+  }
+
+  60% {
+    opacity: 1;
+    -webkit-transform: scale(1.2);
+  }
+
+  100% {
+    opacity: 0;
+    -webkit-transform: scale(0.5);
+  }
+}
+@-moz-keyframes button-bounce-out {
+  0% {
+    -moz-transform: scale(1);
+  }
+
+  60% {
+    opacity: 1;
+    -moz-transform: scale(1.2);
+  }
+
+  100% {
+    opacity: 0;
+    -moz-transform: scale(0.5);
+  }
+}
+@keyframes button-bounce-out {
+  0% {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+  }
+
+  60% {
+    opacity: 1;
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+
+  100% {
+    opacity: 0;
+    -webkit-transform: scale(0.5);
+    -moz-transform: scale(0.5);
+    -ms-transform: scale(0.5);
+    -o-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+}
+
+/* Featurettes
+------------------------- */
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+  margin: 20px 0;
+}
+
+.featurette-divider {
+  border-color: #999;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+  /* Navbar positioning foo */
+  .navbar-wrapper {
+    padding-top: 20px;
+  }
+  .navbar-wrapper .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .navbar-wrapper .navbar {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .navbar-brand>img {
+    position: absolute;
+    width: 135px;
+    top: -15px;
+  }
+
+  /* The navbar becomes detached from the top, so we round the corners */
+  .navbar-wrapper .navbar {
+    border-radius: 4px;
+  }
+
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 767px) {
+  /* Navbar positioning foo */
+  .navbar-wrapper {
+    height: 105px;
+  }
+  .video-container {
+    width: 100%;
+  }
+  .navbar-collapse {
+    position: absolute;
+    width: 100%;
+    background-color: white;
+    left: 14px;
+    text-align: center;
+    margin-top: 55px;
+  }
+  .navbar-collapse li {
+    border-bottom: 1px solid #F1F1F1;
+  }
+  .navbar-collapse .navbar-nav {
+    margin: 0 -15px;
+  }
+  .navbar-collapse .navbar-nav li a:hover {
+    background-color: #6EBC4B;
+    color: #FFF;
+  }
+  .employees .employee {
+    height: 350px;
+  }
+}
+
+/* FOOTER STYLES
+-------------------------------------------------- */
+
+.footer-distributed{
+  background-color: #292c2f;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: bold 16px sans-serif;
+
+  padding: 55px 50px;
+  margin-top: 80px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+  width: 40%;
+}
+
+/* The company logo */
+
+.footer-distributed h3{
+  color:  #ffffff;
+  font: normal 36px 'Cookie', cursive;
+  margin: 0;
+}
+
+.footer-distributed h3 span{
+  color:  #5383d3;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+  color:  #ffffff;
+  margin: 20px 0 12px;
+  padding: 0;
+}
+
+.footer-distributed .footer-links a{
+  display:inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+  color:  #8f9296;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+  width: 35%;
+}
+
+.footer-distributed .footer-center i{
+  background-color:  #33383b;
+  color: #ffffff;
+  font-size: 25px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 42px;
+  margin: 10px 15px;
+  vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+  font-size: 17px;
+  line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+  display: inline-block;
+  color: #ffffff;
+  vertical-align: middle;
+  margin:0;
+}
+
+.footer-distributed .footer-center p span{
+  display:block;
+  font-weight: normal;
+  font-size:14px;
+  line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+  color:  #6EBC4B;
+  text-decoration: none;;
+}
+
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+  width: 20%;
+}
+
+.footer-distributed .footer-company-about{
+  line-height: 20px;
+  color:  #92999f;
+  font-size: 13px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+  display: block;
+  color:  #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+  margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  background-color:  #33383b;
+  border-radius: 2px;
+
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+
+  margin-right: 3px;
+  margin-bottom: 5px;
+  transition: color .2s;
+}
+
+.footer-distributed .footer-icons a:hover{
+  color: #6EBC4B;
+}
+
+.footer-logo {
+  width: 150px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 880px) {
+
+  .footer-distributed{
+    font: bold 14px sans-serif;
+  }
+
+  .footer-distributed .footer-left,
+  .footer-distributed .footer-center,
+  .footer-distributed .footer-right{
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  .footer-distributed .footer-center i{
+    margin-left: 0;
+  }
+
+}
