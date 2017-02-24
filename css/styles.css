@@ -76,7 +76,7 @@ body {
 
 /* Carousel base class */
 .carousel {
-  height: 500px;
+  height: 400px;
   margin-bottom: 35px;
 }
 /* Since positioning the image, we need to help out the caption */
@@ -87,7 +87,7 @@ body {
 
 /* Declare heights because of positioning of img element */
 .carousel .item {
-  height: 500px;
+  height: 400px;
   background-color: #777;
 }
 .carousel-inner > .item > img {
@@ -95,7 +95,7 @@ body {
   top: 0;
   left: 0;
   min-width: 100%;
-  height: 500px;
+  height: 400px;
 }
 .carousel-control {
   background-image: none !important;
@@ -308,18 +308,21 @@ body {
 }
 
 .homes .hide-bullets {
-    list-style:none;
-    margin-left: -40px;
-    margin-top:20px;
+  list-style:none;
+  margin-left: -40px;
+  margin-top:20px;
 }
 .homes .thumbnail {
-    padding: 0;
+  padding: 0;
 }
 .homes .carousel-inner>.item>img, .carousel-inner>.item>a>img {
-    width: 100%;
+  width: 100%;
 }
 .homes #slider {
   margin-top: 20px;
+}
+.homes #slider-thumbs ul li:nth-child(4n + 1) {
+  clear: both;
 }
 
 #homeImageCarousel .carousel-control {
@@ -333,11 +336,11 @@ body {
   height: 100%;
   width: 100%;
   position: relative;
-  top: 440px;
+  top: 340px;
   color: #FFF;
 }
 #homeImageCarousel .item:hover > .viewport-info {
-  top: 350px;
+  top: 250px;
   background: rgba(28, 47, 58, 0.85);
 }
 .viewport-info .viewport-title {
