@@ -351,6 +351,20 @@ body {
   font-size: 16px;
 }
 
+.more-images {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: rgba(28, 47, 58, 0.5);
+  padding: 10px;
+  color: #FFF;
+  cursor: pointer;
+  transition: all .25s;
+}
+.more-images:hover {
+  background: rgba(28, 47, 58, 0.85);
+}
+
 @media (max-width: 767px) {
   #homeImageCarousel .carousel-control {
     display: block;
