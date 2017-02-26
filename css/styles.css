@@ -376,6 +376,11 @@ body {
     top: 350px;
     background: rgba(28, 47, 58, 0.85);
   }
+  .more-images {
+      right: auto;
+      left: 50%;
+      transform: translateX(-50%);
+  }
 }
 
 @media (max-width: 400px) {
