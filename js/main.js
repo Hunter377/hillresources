@@ -58,7 +58,7 @@ $( document ).ready(function() {
     });
 
     //Magnific Popups
-    $('#culpepper-creek').magnificPopup({
+    $('#clearwater').magnificPopup({
         items: [
             {
                 src: 'img/homes/Clearwater.jpg',
