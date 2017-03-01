@@ -58,7 +58,7 @@ $( document ).ready(function() {
     });
 
     //Magnific Popups
-    $('#clearwater').magnificPopup({
+    $('#culpepper-creek').magnificPopup({
         items: [
             {
                 src: 'img/homes/Clearwater.jpg',
@@ -251,6 +251,42 @@ $( document ).ready(function() {
             {
                 src: 'img/homes/Walnut-Creek-Back.jpg',
                 title: 'Walnut Creek Backyard'
+            }
+        ],
+        gallery: {
+            enabled: true
+        },
+        type: 'image'
+    });
+    $('#culpepper-creek').magnificPopup({
+        items: [
+            {
+                src: 'img/CulpepperCreek/Culpepper-Creek-Farm.jpg',
+                title: 'Culpepper Creek Farm'
+            },
+            {
+                src: 'img/CulpepperCreek/Culpepper-Creek-Farm2.jpg',
+                title: 'Culpepper Creek Farm'
+            },
+            {
+                src: 'img/CulpepperCreek/Culpepper-Creek-Farm3.jpg',
+                title: 'Culpepper Creek Farm'
+            },
+            {
+                src: 'img/CulpepperCreek/Culpepper-Creek-Farm4.jpg',
+                title: 'Culpepper Creek Farm'
+            },
+            {
+                src: 'img/CulpepperCreek/Culpepper-Creek-Farm7.jpg',
+                title: 'Culpepper Creek Farm'
+            },
+            {
+                src: 'img/CulpepperCreek/Culpepper-Creek-Farm8.jpg',
+                title: 'Culpepper Creek Farm'
+            },
+            {
+                src: 'img/CulpepperCreek/Culpepper-Creek-Farm9.jpg',
+                title: 'Culpepper Creek Farm'
             }
         ],
         gallery: {

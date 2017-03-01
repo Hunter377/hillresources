@@ -233,6 +233,41 @@ body {
   background-color: #0080B2;
 }
 
+#our-places .images-container {
+  margin: 20px auto;
+  perspective: 1000px;
+  cursor: pointer;
+}
+
+#our-places img {
+  display: inline-block;
+  margin: 0 -2px;
+  transition: all 0.3s;
+}
+
+#our-places img:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+#our-places .center-image {
+  width: 40%;
+}
+
+#our-places .outer-image {
+  width: 30%;
+  padding: 5px;
+  opacity: 0.8;
+}
+
+#our-places .outer-image:first-of-type {
+  transform: rotateY(-35deg);
+}
+
+#our-places .outer-image:last-of-type {
+  transform: rotateY(35deg);
+}
+
 /* About Styles
 ------------------------- */
 
