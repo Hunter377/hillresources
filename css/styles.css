@@ -360,6 +360,12 @@ body {
   clear: both;
 }
 
+#homeImageCarousel {
+  height: 400px;
+}
+#homeImageCarousel .item {
+  height: 400px;
+}
 #homeImageCarousel .carousel-control {
   display: none;
 }
