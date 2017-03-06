@@ -61,19 +61,19 @@ $( document ).ready(function() {
     $('#clearwater').magnificPopup({
         items: [
             {
-                src: 'img/homes/Clearwater.jpg',
+                src: 'img/homes/Clearwater-lg.jpg',
                 title: 'Clearwater'
             },
             {
-                src: 'img/homes/Clearwater-Back.jpg',
+                src: 'img/homes/Clearwater-Back-lg.jpg',
                 title: 'Clearwater Backyard'
             },
             {
-                src: 'img/homes/Clearwater-Kitchen.jpg',
+                src: 'img/homes/Clearwater-Kitchen-lg.jpg',
                 title: 'Clearwater Kitchen'
             },
             {
-                src: 'img/homes/Clearwater-Living.jpg',
+                src: 'img/homes/Clearwater-Living-lg.jpg',
                 title: 'Clearwater Living Room'
             }
         ],
@@ -85,11 +85,11 @@ $( document ).ready(function() {
     $('#continental').magnificPopup({
         items: [
             {
-                src: 'img/homes/Continental.jpg',
+                src: 'img/homes/Continental-lg.jpg',
                 title: 'Continental'
             },
             {
-                src: 'img/homes/Continental2.jpg',
+                src: 'img/homes/Continental2-lg.jpg',
                 title: 'Continental'
             }
         ],
@@ -101,11 +101,11 @@ $( document ).ready(function() {
     $('#eastlake').magnificPopup({
         items: [
             {
-                src: 'img/homes/EastLake.jpg',
+                src: 'img/homes/EastLake-lg.jpg',
                 title: 'EastLake'
             },
             {
-                src: 'img/homes/EastLake2.jpg',
+                src: 'img/homes/EastLake2-lg.jpg',
                 title: 'EastLake'
             }
         ],
@@ -117,11 +117,11 @@ $( document ).ready(function() {
     $('#eastover').magnificPopup({
         items: [
             {
-                src: 'img/homes/EastOver.jpg',
+                src: 'img/homes/EastOver-lg.jpg',
                 title: 'EastOver'
             },
             {
-                src: 'img/homes/EastOver2.jpg',
+                src: 'img/homes/EastOver2-lg.jpg',
                 title: 'EastOver'
             }
         ],
@@ -133,15 +133,15 @@ $( document ).ready(function() {
     $('#founders').magnificPopup({
         items: [
             {
-                src: 'img/homes/Founders.jpg',
+                src: 'img/homes/Founders-lg.jpg',
                 title: 'Founders'
             },
             {
-                src: 'img/homes/Founders2.jpg',
+                src: 'img/homes/Founders2-lg.jpg',
                 title: 'Founders'
             },
             {
-                src: 'img/homes/Founders-Back.jpg',
+                src: 'img/homes/Founders-Back-lg.jpg',
                 title: 'Founders Backyard'
             }
         ],
@@ -153,15 +153,15 @@ $( document ).ready(function() {
     $('#hollis').magnificPopup({
         items: [
             {
-                src: 'img/homes/Hollis.jpg',
+                src: 'img/homes/Hollis-lg.jpg',
                 title: 'Hollis'
             },
             {
-                src: 'img/homes/Hollis-Kitchen.jpg',
+                src: 'img/homes/Hollis-Kitchen-lg.jpg',
                 title: 'Hollis Kitchen'
             },
             {
-                src: 'img/homes/Hollis-Living.jpg',
+                src: 'img/homes/Hollis-Living-lg.jpg',
                 title: 'Hollis Living Room'
             }
         ],
@@ -173,11 +173,11 @@ $( document ).ready(function() {
     $('#lakeview').magnificPopup({
         items: [
             {
-                src: 'img/homes/Lakeview.jpg',
+                src: 'img/homes/Lakeview-lg.jpg',
                 title: 'Lakeview'
             },
             {
-                src: 'img/homes/Lakeview-Back.jpg',
+                src: 'img/homes/Lakeview-Back-lg.jpg',
                 title: 'Lakeview Backyard'
             }
         ],
@@ -189,15 +189,15 @@ $( document ).ready(function() {
     $('#legends').magnificPopup({
         items: [
             {
-                src: 'img/homes/Legends.jpg',
+                src: 'img/homes/Legends-lg.jpg',
                 title: 'Legends'
             },
             {
-                src: 'img/homes/Legends-Back.jpg',
+                src: 'img/homes/Legends-Back-lg.jpg',
                 title: 'Legends Backyard'
             },
             {
-                src: 'img/homes/Legends-Kitchen.jpg',
+                src: 'img/homes/Legends-Kitchen-lg.jpg',
                 title: 'Legends Kitchen'
             }
         ],
@@ -209,15 +209,15 @@ $( document ).ready(function() {
     $('#stepping-stones').magnificPopup({
         items: [
             {
-                src: 'img/homes/Stepping-Stones.jpg',
+                src: 'img/homes/Stepping-Stones-lg.jpg',
                 title: 'Stepping Stones'
             },
             {
-                src: 'img/homes/Stepping-Stones-Bathroom.jpg',
+                src: 'img/homes/Stepping-Stones-Bathroom-lg.jpg',
                 title: 'Stepping Stones Bathroom'
             },
             {
-                src: 'img/homes/Stepping-Stones-Kitchen.jpg',
+                src: 'img/homes/Stepping-Stones-Kitchen-lg.jpg',
                 title: 'Stepping Stones Kitchen'
             }
         ],
@@ -229,11 +229,11 @@ $( document ).ready(function() {
     $('#valley-forge').magnificPopup({
         items: [
             {
-                src: 'img/homes/Valley-Forge.jpg',
+                src: 'img/homes/Valley-Forge-lg.jpg',
                 title: 'Valley Forge'
             },
             {
-                src: 'img/homes/Valley-Forge-Living.jpg',
+                src: 'img/homes/Valley-Forge-Living-lg.jpg',
                 title: 'Valley Forge Living Room'
             }
         ],
@@ -245,11 +245,11 @@ $( document ).ready(function() {
     $('#walnut-creek').magnificPopup({
         items: [
             {
-                src: 'img/homes/Walnut-Creek.jpg',
+                src: 'img/homes/Walnut-Creek-lg.jpg',
                 title: 'Walnut Creek'
             },
             {
-                src: 'img/homes/Walnut-Creek-Back.jpg',
+                src: 'img/homes/Walnut-Creek-Back-lg.jpg',
                 title: 'Walnut Creek Backyard'
             }
         ],

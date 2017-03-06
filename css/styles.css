@@ -233,6 +233,11 @@ body {
   background-color: #0080B2;
 }
 
+#our-people button {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 #our-places .images-container {
   margin: 20px auto;
   perspective: 1000px;
@@ -351,12 +356,12 @@ body {
   padding: 0;
 }
 .homes .carousel-inner>.item>img, .carousel-inner>.item>a>img {
-  width: 100%;
+  height: 100%;
 }
 .homes #slider {
   margin-top: 20px;
 }
-.homes #slider-thumbs ul li:nth-child(4n + 1) {
+.homes #slider-thumbs ul li:nth-child(3n + 1) {
   clear: both;
 }
 
