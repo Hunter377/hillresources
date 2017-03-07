@@ -165,9 +165,38 @@ body {
   align-items: center;
   background: #E1E1E1;
   margin-top: 90px;
-  background-image: url(../img/backgrounds/valley.jpg);
+  position: relative;
+}
+
+.default-header .slide-img {
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/slideshow/01.jpg);
   background-repeat: no-repeat;
-  background-position: center;
+  background-size: cover;
+  position: absolute;
+  transition: 0.4s opacity;
+}
+
+.default-header .slide-img-2 {
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/slideshow/02.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  transition: 0.4s opacity;
+}
+
+.header-hidden {
+  opacity: 0;
+}
+
+.default-header .radial-bg {
+  background: radial-gradient(rgba(0,0,0,.4), rgba(0, 0, 0, 0));
+  width: 100%;
+  position: absolute;
+  height: 100%;
 }
 
 .default-header h2 {
@@ -176,6 +205,8 @@ body {
   border: 8px solid;
   padding: 30px 50px;
   text-transform: uppercase;
+  color: #FFF;
+  z-index: 2;
 }
 
 .small-title {
@@ -857,7 +888,7 @@ body {
 
 @media (min-width: 400px) {
   .carousel-caption {
-    padding-bottom: 110px;
+    padding-bottom: 85px;
   }
 }
 /* FOOTER STYLES
