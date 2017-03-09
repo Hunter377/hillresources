@@ -176,6 +176,8 @@ body {
   background-size: cover;
   position: absolute;
   transition: 0.4s opacity;
+  left: 0;
+  top: 0;
 }
 
 .default-header .slide-img-2 {
@@ -186,6 +188,8 @@ body {
   background-size: cover;
   position: absolute;
   transition: 0.4s opacity;
+  left: 0;
+  top: 0;
 }
 
 .header-hidden {
@@ -197,6 +201,8 @@ body {
   width: 100%;
   position: absolute;
   height: 100%;
+  left: 0;
+  top: 0;
 }
 
 .default-header h2 {
@@ -888,7 +894,7 @@ body {
 
 @media (min-width: 400px) {
   .carousel-caption {
-    padding-bottom: 85px;
+    padding-bottom: 110px;
   }
 }
 /* FOOTER STYLES
