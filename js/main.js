@@ -89,6 +89,42 @@ $( document ).ready(function() {
 
     //Magnific Popups
     if ($('#clearwater').length) {
+        $('#boston').magnificPopup({
+            items: [
+                {
+                    src: 'img/homes/Boston/Boston-lg.jpg',
+                    title: 'Boston'
+                }
+            ],
+            gallery: {
+                enabled: true
+            },
+            type: 'image'
+        });
+        $('#byrd').magnificPopup({
+            items: [
+                {
+                    src: 'img/homes/Byrd/Byrd-lg.jpg',
+                    title: 'Byrd'
+                }
+            ],
+            gallery: {
+                enabled: true
+            },
+            type: 'image'
+        });
+        $('#chriswood').magnificPopup({
+            items: [
+                {
+                    src: 'img/homes/Chriswood/Chriswood-lg.jpg',
+                    title: 'Chriswood'
+                }
+            ],
+            gallery: {
+                enabled: true
+            },
+            type: 'image'
+        });
         $('#clearwater').magnificPopup({
             items: [
                 {
@@ -174,6 +210,18 @@ $( document ).ready(function() {
                 {
                     src: 'img/homes/Founders/Founders-Back-lg.jpg',
                     title: 'Founders Backyard'
+                }
+            ],
+            gallery: {
+                enabled: true
+            },
+            type: 'image'
+        });
+        $('#hackberry').magnificPopup({
+            items: [
+                {
+                    src: 'img/homes/Hackberry/Hackberry-lg.jpg',
+                    title: 'Hackberry'
                 }
             ],
             gallery: {
