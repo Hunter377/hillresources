@@ -369,10 +369,6 @@ body {
   margin-left: 25px;
   position: relative;
 }
-.services .light-text {
-  color: #A8A8A8;
-  font-size: 16px;
-}
 
 @media (max-width: 767px) {
   .services-3-row {
@@ -624,10 +620,14 @@ body {
 ------------------------- */
 
 .contact {
-  margin-top: 80px;
+  margin-top: 40px;
 }
 .contact .featurette-heading {
   padding: 0 10px;
+  margin-bottom: 50px;
+}
+.contact .featurette-divider {
+  margin-top: 50px;
 }
 .contact iframe {
   margin: 0 auto;
@@ -640,6 +640,13 @@ body {
     width: 320px;
     height: 250px;
   }
+}
+
+.light-text {
+  color: #A8A8A8;
+  font-size: 16px;
+  float: left;
+  margin: 0 15px;
 }
 
 .contact-info p {
