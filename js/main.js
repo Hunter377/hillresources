@@ -76,8 +76,7 @@ $( document ).ready(function() {
                 window.setTimeout(function(){slide1.addClass('header-hidden');}, 300);
             }
 
-
-            if(i == 13){
+            if(i == 15){
                 i= 1;
             }
             else{
@@ -338,8 +337,8 @@ $( document ).ready(function() {
             type: 'image'
         });
     }
-    if ($('#culpepper-creek').length) {
-        $('#culpepper-creek').magnificPopup({
+    if ($('.culpepper-creek-popup').length) {
+        $('.culpepper-creek-popup').magnificPopup({
             items: [
                 {
                     src: 'img/CulpepperCreek/Culpepper-Creek-Farm.jpg',
@@ -368,7 +367,55 @@ $( document ).ready(function() {
                 {
                     src: 'img/CulpepperCreek/Culpepper-Creek-Farm9.jpg',
                     title: 'Culpepper Creek Farm'
-                }
+                },
+                {
+                    src: 'img/CulpepperCreek/anna_greenhouse-lg.jpg',
+                    title: 'Culpepper Creek Farm'
+                },
+                {
+                    src: 'img/CulpepperCreek/basketball-lg.jpg',
+                    title: 'Culpepper Creek Farm'
+                },
+                {
+                    src: 'img/CulpepperCreek/culpeppers-lg.jpg',
+                    title: 'Culpepper Creek Farm'
+                },
+                {
+                    src: 'img/CulpepperCreek/farm_barb_greenhouse-lg.jpg',
+                    title: 'Culpepper Creek Farm'
+                },
+                {
+                    src: 'img/CulpepperCreek/farm_d_greenhouse-lg.jpg',
+                    title: 'Culpepper Creek Farm'
+                },
+                {
+                    src: 'img/CulpepperCreek/farm_mel_greenhouse-lg.jpg',
+                    title: 'Culpepper Creek Farm'
+                },
+                {
+                    src: 'img/CulpepperCreek/greenhouse-lg.jpg',
+                    title: 'Culpepper Creek Farm'
+                },
+                {
+                    src: 'img/CulpepperCreek/james_greenhouse-lg.jpg',
+                    title: 'Culpepper Creek Farm'
+                },
+                {
+                    src: 'img/CulpepperCreek/office-lg.jpg',
+                    title: 'Culpepper Creek Farm'
+                },
+                {
+                    src: 'img/CulpepperCreek/plant_basket_for_sale-lg.jpg',
+                    title: 'Culpepper Creek Farm'
+                },
+                {
+                    src: 'img/CulpepperCreek/plants_for_sale-lg.jpg',
+                    title: 'Culpepper Creek Farm'
+                },
+                {
+                    src: 'img/CulpepperCreek/trimming_plants_greenhouse-lg.jpg',
+                    title: 'Culpepper Creek Farm'
+                },
             ],
             gallery: {
                 enabled: true

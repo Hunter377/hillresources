@@ -3,7 +3,7 @@
 /* Padding below the footer and lighter body text */
 
 body {
-  background-color: #F9F9F9;
+  background-color: #F3F3F3;
   color: #5a5a5a;
 }
 
@@ -20,6 +20,12 @@ body {
   z-index: 20;
 }
 
+.navbar-wrapper.home-page-nav {
+  background: -webkit-linear-gradient(bottom, rgba(0,0,0,0), rgba(0,0,0,0.5)); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.5)); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.5)); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to top, rgba(0,0,0,0), rgba(0,0,0,0.5)); /* Standard syntax (must be last) */
+}
 .navbar-wrapper:not(.home-page-nav) {
   box-shadow: 1px 1px 3px 0 #a2a2a2;
 }
@@ -49,6 +55,9 @@ body {
 .navbar-default .navbar-nav>li>a {
   color: #292C2F;
   transition: color .2s, background-color .2s;
+}
+.navbar-wrapper.home-page-nav .navbar-default .navbar-nav>li>a {
+  color: #FFF;
 }
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
   background-color: transparent;
@@ -229,6 +238,16 @@ body {
 /* Home Styles
 ------------------------- */
 
+.home-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
 .video-container {
   width: 700px;
   margin: 0px auto;
@@ -370,12 +389,6 @@ body {
   position: relative;
 }
 
-@media (max-width: 767px) {
-  .services-3-row {
-    text-align: center;
-  }
-}
-
 /* Homes Styles
 ------------------------- */
 
@@ -490,6 +503,44 @@ body {
   .homes .viewport-info {
     top: 200px;
   }
+}
+
+/* Farm Styles
+------------------------- */
+
+.farm {
+  margin-top: 40px;
+}
+.farm .culpepper-gallery {
+  max-width: 800px;
+  margin: 40px auto;
+  width: 100%;
+  display: block;
+  position: relative;
+  cursor: pointer;
+}
+.farm .culpepper-gallery img {
+  width: 100%;
+}
+.farm .culpepper-gallery .culpepper-gallery-overlay {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  background: radial-gradient(rgba(0,0,0,.4), rgba(0, 0, 0, 0));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.farm .culpepper-gallery .culpepper-gallery-overlay span {
+  font-size: 40px;
+  color: #FFF;
+  text-align: center;
+  font-weight: bold;
+  border: 5px solid #FFF;
+  padding: 30px 50px;
+  text-transform: uppercase;
 }
 
 /* Join Us Styles
