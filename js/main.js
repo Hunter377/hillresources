@@ -93,7 +93,23 @@ $( document ).ready(function() {
                 {
                     src: 'img/homes/Boston/Boston-lg.jpg',
                     title: 'Boston'
-                }
+                },
+                {
+                    src: 'img/homes/Boston/Boston-Living.jpg',
+                    title: 'Boston Living Room'
+                },
+                {
+                    src: 'img/homes/Boston/Boston-Kitchen.jpg',
+                    title: 'Boston Kitchen'
+                },
+                {
+                    src: 'img/homes/Boston/Boston-Bedroom.jpg',
+                    title: 'Boston Bedroom'
+                },
+                {
+                    src: 'img/homes/Boston/Boston-Bathroom.jpg',
+                    title: 'Boston Bathroom'
+                },
             ],
             gallery: {
                 enabled: true
@@ -105,6 +121,22 @@ $( document ).ready(function() {
                 {
                     src: 'img/homes/Byrd/Byrd-lg.jpg',
                     title: 'Byrd'
+                },
+                {
+                    src: 'img/homes/Byrd/Byrd-Living.jpg',
+                    title: 'Byrd Living Room'
+                },
+                {
+                    src: 'img/homes/Byrd/Byrd-Kitchen.jpg',
+                    title: 'Byrd Kitchen'
+                },
+                {
+                    src: 'img/homes/Byrd/Byrd-Bedroom.jpg',
+                    title: 'Byrd Bedroom'
+                },
+                {
+                    src: 'img/homes/Byrd/Byrd-Bathroom.jpg',
+                    title: 'Byrd Bathroom'
                 }
             ],
             gallery: {
@@ -135,12 +167,28 @@ $( document ).ready(function() {
                     title: 'Clearwater Backyard'
                 },
                 {
+                    src: 'img/homes/Clearwater/Clearwater-Living-lg.jpg',
+                    title: 'Clearwater Living Room'
+                },
+                {
+                    src: 'img/homes/Clearwater/Clearwater-Living-2.jpg',
+                    title: 'Clearwater Living Room'
+                },
+                {
                     src: 'img/homes/Clearwater/Clearwater-Kitchen-lg.jpg',
                     title: 'Clearwater Kitchen'
                 },
                 {
-                    src: 'img/homes/Clearwater/Clearwater-Living-lg.jpg',
-                    title: 'Clearwater Living Room'
+                    src: 'img/homes/Clearwater/Clearwater-Kitchen-2.jpg',
+                    title: 'Clearwater Kitchen'
+                },
+                {
+                    src: 'img/homes/Clearwater/Clearwater-Bedroom.jpg',
+                    title: 'Clearwater Bedroom'
+                },
+                {
+                    src: 'img/homes/Clearwater/Clearwater-Bathroom.jpg',
+                    title: 'Clearwater Bathroom'
                 }
             ],
             gallery: {
@@ -157,6 +205,22 @@ $( document ).ready(function() {
                 {
                     src: 'img/homes/Continental/Continental2-lg.jpg',
                     title: 'Continental'
+                },
+                {
+                    src: 'img/homes/Continental/Continental-Living.jpg',
+                    title: 'Continental Living Room'
+                },
+                {
+                    src: 'img/homes/Continental/Continental-Kitchen.jpg',
+                    title: 'Continental Kitchen'
+                },
+                {
+                    src: 'img/homes/Continental/Continental-Bedroom.jpg',
+                    title: 'Continental Bedroom'
+                },
+                {
+                    src: 'img/homes/Continental/Continental-Shower.jpg',
+                    title: 'Continental Bathroom'
                 }
             ],
             gallery: {
@@ -189,7 +253,23 @@ $( document ).ready(function() {
                 {
                     src: 'img/homes/EastOver/EastOver2-lg.jpg',
                     title: 'EastOver'
-                }
+                },
+                {
+                    src: 'img/homes/EastOver/EastOver-Living.jpg',
+                    title: 'EastOver Living Room'
+                },
+                {
+                    src: 'img/homes/EastOver/EastOver-Kitchen.jpg',
+                    title: 'EastOver Kitchen'
+                },
+                {
+                    src: 'img/homes/EastOver/EastOver-Bedroom.jpg',
+                    title: 'EastOver Bedroom'
+                },
+                {
+                    src: 'img/homes/EastOver/EastOver-Bathroom.jpg',
+                    title: 'EastOver Bathroom'
+                },
             ],
             gallery: {
                 enabled: true
@@ -329,6 +409,34 @@ $( document ).ready(function() {
                 {
                     src: 'img/homes/Walnut-Creek/Walnut-Creek-Back-lg.jpg',
                     title: 'Walnut Creek Backyard'
+                }
+            ],
+            gallery: {
+                enabled: true
+            },
+            type: 'image'
+        });
+        $('#minter').magnificPopup({
+            items: [
+                {
+                    src: 'img/homes/Minter/Minter-lg.jpg',
+                    title: 'Minter'
+                },
+                {
+                    src: 'img/homes/Minter/Minter-Living.jpg',
+                    title: 'Minter Living Room'
+                },
+                {
+                    src: 'img/homes/Minter/Minter-Kitchen.jpg',
+                    title: 'Minter Kitchen'
+                },
+                {
+                    src: 'img/homes/Minter/Minter-Bedroom.jpg',
+                    title: 'Minter Bedroom'
+                },
+                {
+                    src: 'img/homes/Minter/Minter-Bathroom.jpg',
+                    title: 'Minter Bathroom'
                 }
             ],
             gallery: {

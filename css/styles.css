@@ -437,7 +437,7 @@ body {
 
 .viewport-info {
   transition: .25s ease-in-out;
-  padding-left: 15px;
+  padding: 0 15px 0 15px;
   background: rgba(28, 47, 58, 0.5);
   height: 100%;
   width: 100%;
@@ -446,12 +446,13 @@ body {
   color: #FFF;
 }
 #homeImageCarousel .item:hover > .viewport-info {
-  top: 250px;
+  top: 110px;
   background: rgba(28, 47, 58, 0.85);
 }
 .viewport-info .viewport-title {
   font-size: 20px;
   padding: 15px 0;
+  margin-bottom: 0;
 }
 .viewport-info .viewport-text {
   font-size: 16px;
@@ -501,7 +502,7 @@ body {
     height: 350px;
   }
   .homes .viewport-info {
-    top: 200px;
+    top: 120px;
   }
 }
 
