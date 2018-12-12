@@ -149,6 +149,22 @@ $( document ).ready(function() {
                 {
                     src: 'img/homes/Chriswood/Chriswood-lg.jpg',
                     title: 'Chriswood'
+                },
+                {
+                    src: 'img/homes/Chriswood/Chriswood-Living.jpg',
+                    title: 'Chriswood Living Room'
+                },
+                {
+                    src: 'img/homes/Chriswood/Chriswood-Kitchen.jpg',
+                    title: 'Chriswood Kitchen'
+                },
+                {
+                    src: 'img/homes/Chriswood/Chriswood-Bedroom.jpg',
+                    title: 'Chriswood Bedroom'
+                },
+                {
+                    src: 'img/homes/Chriswood/Chriswood-Bathroom.jpg',
+                    title: 'Chriswood Bathroom'
                 }
             ],
             gallery: {
@@ -237,6 +253,22 @@ $( document ).ready(function() {
                 {
                     src: 'img/homes/EastLake/EastLake2-lg.jpg',
                     title: 'EastLake'
+                },
+                {
+                    src: 'img/homes/EastLake/EastLake-Living.jpg',
+                    title: 'EastLake Living Room'
+                },
+                {
+                    src: 'img/homes/EastLake/EastLake-Kitchen.jpg',
+                    title: 'EastLake Kitchen'
+                },
+                {
+                    src: 'img/homes/EastLake/EastLake-Bedroom.jpg',
+                    title: 'EastLake Bedroom'
+                },
+                {
+                    src: 'img/homes/EastLake/EastLake-Bathroom.jpg',
+                    title: 'EastLake Bathroom'
                 }
             ],
             gallery: {
@@ -287,6 +319,22 @@ $( document ).ready(function() {
                     title: 'Founders'
                 },
                 {
+                    src: 'img/homes/Founders/Founders-Living.jpg',
+                    title: 'Founders Living Room'
+                },
+                {
+                    src: 'img/homes/Founders/Founders-Kitchen.jpg',
+                    title: 'Founders Kitchen'
+                },
+                {
+                    src: 'img/homes/Founders/Founders-Bedroom.jpg',
+                    title: 'Founders Bedroom'
+                },
+                {
+                    src: 'img/homes/Founders/Founders-Bathroom.jpg',
+                    title: 'Founders Bathroom'
+                },
+                {
                     src: 'img/homes/Founders/Founders-Back-lg.jpg',
                     title: 'Founders Backyard'
                 }
@@ -315,12 +363,20 @@ $( document ).ready(function() {
                     title: 'Hollis'
                 },
                 {
-                    src: 'img/homes/Hollis/Hollis-Kitchen-lg.jpg',
+                    src: 'img/homes/Hollis/Hollis-Living.jpg',
+                    title: 'Hollis Living Room'
+                },
+                {
+                    src: 'img/homes/Hollis/Hollis-Kitchen.jpg',
                     title: 'Hollis Kitchen'
                 },
                 {
-                    src: 'img/homes/Hollis/Hollis-Living-lg.jpg',
-                    title: 'Hollis Living Room'
+                    src: 'img/homes/Hollis/Hollis-Bedroom.jpg',
+                    title: 'Hollis Bedroom'
+                },
+                {
+                    src: 'img/homes/Hollis/Hollis-Bathroom.jpg',
+                    title: 'Hollis Bathroom'
                 }
             ],
             gallery: {
@@ -351,12 +407,24 @@ $( document ).ready(function() {
                     title: 'Legends'
                 },
                 {
-                    src: 'img/homes/Legends/Legends-Back-lg.jpg',
-                    title: 'Legends Backyard'
+                    src: 'img/homes/Legends/Legends-Living.jpg',
+                    title: 'Legends Living Room'
                 },
                 {
-                    src: 'img/homes/Legends/Legends-Kitchen-lg.jpg',
+                    src: 'img/homes/Legends/Legends-Kitchen.jpg',
                     title: 'Legends Kitchen'
+                },
+                {
+                    src: 'img/homes/Legends/Legends-Bedroom.jpg',
+                    title: 'Legends Bedroom'
+                },
+                {
+                    src: 'img/homes/Legends/Legends-Bathroom.jpg',
+                    title: 'Legends Bathroom'
+                },
+                {
+                    src: 'img/homes/Legends/Legends-Back-lg.jpg',
+                    title: 'Legends Backyard'
                 }
             ],
             gallery: {
@@ -371,12 +439,20 @@ $( document ).ready(function() {
                     title: 'Stepping Stones'
                 },
                 {
-                    src: 'img/homes/Stepping-Stones/Stepping-Stones-Bathroom-lg.jpg',
-                    title: 'Stepping Stones Bathroom'
+                    src: 'img/homes/Stepping-Stones/Stepping-Stones-Living.jpg',
+                    title: 'Stepping Stones Living Room'
                 },
                 {
-                    src: 'img/homes/Stepping-Stones/Stepping-Stones-Kitchen-lg.jpg',
+                    src: 'img/homes/Stepping-Stones/Stepping-Stones-Kitchen.jpg',
                     title: 'Stepping Stones Kitchen'
+                },
+                {
+                    src: 'img/homes/Stepping-Stones/Stepping-Stones-Bedroom.jpg',
+                    title: 'Stepping Stones Bedroom'
+                },
+                {
+                    src: 'img/homes/Stepping-Stones/Stepping-Stones-Bathroom.jpg',
+                    title: 'Stepping Stones Bathroom'
                 }
             ],
             gallery: {
@@ -391,8 +467,20 @@ $( document ).ready(function() {
                     title: 'Valley Forge'
                 },
                 {
-                    src: 'img/homes/Valley-Forge/Valley-Forge-Living-lg.jpg',
+                    src: 'img/homes/Valley-Forge/Valley-Forge-Living.jpg',
                     title: 'Valley Forge Living Room'
+                },
+                {
+                    src: 'img/homes/Valley-Forge/Valley-Forge-Kitchen.jpg',
+                    title: 'Valley Forge Kitchen'
+                },
+                {
+                    src: 'img/homes/Valley-Forge/Valley-Forge-Bedroom.jpg',
+                    title: 'Valley Forge Bedroom'
+                },
+                {
+                    src: 'img/homes/Valley-Forge/Valley-Forge-Bathroom.jpg',
+                    title: 'Valley Forge Bathroom'
                 }
             ],
             gallery: {
