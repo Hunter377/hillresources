@@ -57,8 +57,8 @@ body {
   transition: color .2s, background-color .2s;
 }
 .navbar-wrapper.home-page-nav .navbar-default .navbar-nav>li>a {
-  color: #FFF;
-}
+    color: #FFF;
+  }
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
   background-color: transparent;
   color: #6EBC4B;
@@ -77,6 +77,16 @@ body {
   width: 28px;
   height: 3px;
   border-radius: 3px;
+}
+
+.home-page-nav .navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+}
+
+@media (max-width: 767px) {
+  .navbar-wrapper.home-page-nav .navbar-default .navbar-nav>li>a {
+    color: #292C2F;
+  }
 }
 
 
