@@ -243,6 +243,9 @@ body {
   .default-header {
     margin-top: 105px;
   }
+  .default-header h2 {
+    font-size: 35px;
+  }
 }
 
 /* Home Styles
@@ -725,6 +728,131 @@ body {
     margin-bottom: 40px;
   }
 }
+
+/* Community Styles
+------------------------- */
+
+.community {
+  position: relative;
+  width: 100%;
+  font-family: "Lato";
+}
+.community-card-row > div {
+  margin-top: 35px;
+}
+.media {
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  position: absolute;
+  transition: all 0.3s ease;
+  width: 100%;
+}
+figure {
+  height: 370px;
+  overflow: hidden;
+  position: relative;
+}
+figure a {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 3;
+}
+figure:hover .media {
+  -webkit-transform: scale(1.25);
+          transform: scale(1.25);
+}
+figcaption {
+  color: #252830;
+  height: calc(100% - 30px);
+  margin: 15px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 280px;
+}
+.card-text {
+  background-color: white;
+  bottom: 0;
+  padding: 15px;
+  position: absolute;
+  width: 100%;
+}
+svg {
+  height: inherit;
+  width: 100%;
+}
+svg text {
+  text-anchor: middle;
+}
+svg .alpha {
+  fill: white;
+}
+svg .title {
+  font-size: 25px;
+  font-family: "Montserrat";
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+svg #base1 {
+  fill: white;
+  -webkit-mask: url(#mask1);
+  mask: url(#mask1);
+}
+svg #base2 {
+  fill: white;
+  -webkit-mask: url(#mask2);
+  mask: url(#mask2);
+}
+svg #base3 {
+  fill: white;
+  -webkit-mask: url(#mask3);
+  mask: url(#mask3);
+}
+svg #base4 {
+  fill: white;
+  -webkit-mask: url(#mask4);
+  mask: url(#mask4);
+}
+
+.second-card {
+  margin-top: 35px;
+}
+
+@media (min-width: 992px) {
+  .second-card {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  figure {
+    height: 420px;
+  }
+  figcaption {
+    width: 255px;
+  }
+}
+
+.community1 {
+  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/584938/bg_15.png");
+}
+
+.community2 {
+  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/584938/bg_5.png");
+}
+
+.community3 {
+  background-image: url("https://www.zsl.org/sites/default/files/image/2014-07/meet-the-giraffes-whipsnade.jpg");
+}
+
+.community4 {
+  background-image: url("https://media.swncdn.com/cms/CW/54992-church-ThinkstockPhotos-139605937.1200w.tn.jpg");
+}
+
 
 /* Scroll Top Button
 ------------------------- */
