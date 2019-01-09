@@ -390,14 +390,16 @@ body {
 .services {
   margin-top: 40px;
 }
-.services i {
+.services i,
+.community i {
   font-size: 12px;
   top: 8px;
   left: -18px;
   position: absolute;
   color: #0080B2;
 }
-.services p {
+.services p,
+.community .lead {
   margin-left: 25px;
   position: relative;
 }
@@ -737,7 +739,7 @@ body {
   width: 100%;
   font-family: "Lato";
 }
-.community-card-row > div {
+.community > .container-fluid > div {
   margin-top: 35px;
 }
 .media {
@@ -817,6 +819,46 @@ svg #base4 {
   -webkit-mask: url(#mask4);
   mask: url(#mask4);
 }
+svg #base5 {
+  fill: white;
+  -webkit-mask: url(#mask5);
+  mask: url(#mask5);
+}
+svg #base6 {
+  fill: white;
+  -webkit-mask: url(#mask6);
+  mask: url(#mask6);
+}
+svg #base7 {
+  fill: white;
+  -webkit-mask: url(#mask7);
+  mask: url(#mask7);
+}
+svg #base8 {
+  fill: white;
+  -webkit-mask: url(#mask8);
+  mask: url(#mask8);
+}
+svg #base9 {
+  fill: white;
+  -webkit-mask: url(#mask9);
+  mask: url(#mask9);
+}
+svg #base10 {
+  fill: white;
+  -webkit-mask: url(#mask10);
+  mask: url(#mask10);
+}
+svg #base11 {
+  fill: white;
+  -webkit-mask: url(#mask11);
+  mask: url(#mask11);
+}
+svg #base12 {
+  fill: white;
+  -webkit-mask: url(#mask12);
+  mask: url(#mask12);
+}
 
 .second-card {
   margin-top: 35px;
@@ -838,19 +880,63 @@ svg #base4 {
 }
 
 .community1 {
-  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/584938/bg_15.png");
+  background-image: url("../img/community/Ball-Ranch.jpg");
 }
 
 .community2 {
-  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/584938/bg_5.png");
+  background-image: url("../img/community/Water-Slide.jpg");
 }
 
 .community3 {
-  background-image: url("https://www.zsl.org/sites/default/files/image/2014-07/meet-the-giraffes-whipsnade.jpg");
+  background-image: url("../img/community/Culpeppers-Zoo.jpg");
 }
 
 .community4 {
-  background-image: url("https://media.swncdn.com/cms/CW/54992-church-ThinkstockPhotos-139605937.1200w.tn.jpg");
+  background-image: url("../img/community/Beltway.jpg");
+}
+
+.community5 {
+  background-image: url("../img/community/Downtown-Fun.jpg");
+}
+
+.community6 {
+  background-image: url("../img/community/Rangers.jpg");
+}
+
+.community7 {
+  background-image: url("../img/community/Playfare-Park.jpg");
+}
+
+.community8 {
+  background-image: url("../img/community/Elvis.jpg");
+}
+
+.community9 {
+  background-image: url("../img/community/Night-to-Shine.jpg");
+}
+
+.community10 {
+  background-image: url("../img/community/Cisco.jpg");
+}
+
+.community11 {
+  background-image: url("../img/community/Farm-Mowing.jpg");
+}
+
+.community12 {
+  background-image: url("../img/community/Culpeppers.jpg");
+}
+
+.community .featurette-heading {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  font-weight: 800;
+}
+
+.community .lead {
+  max-width: 980px;
+  margin: 0 auto;
+  margin-bottom: 35px;
 }
 
 
