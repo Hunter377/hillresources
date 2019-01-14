@@ -750,12 +750,12 @@ body {
   transition: all 0.3s ease;
   width: 100%;
 }
-figure {
+.community figure {
   height: 370px;
   overflow: hidden;
   position: relative;
 }
-figure a {
+.community figure a {
   height: 100%;
   left: 0;
   position: absolute;
@@ -763,11 +763,11 @@ figure a {
   width: 100%;
   z-index: 3;
 }
-figure:hover .media {
+.community figure:hover .media {
   -webkit-transform: scale(1.25);
           transform: scale(1.25);
 }
-figcaption {
+.community figcaption {
   color: #252830;
   height: calc(100% - 30px);
   margin: 15px;
@@ -783,78 +783,78 @@ figcaption {
   position: absolute;
   width: 100%;
 }
-svg {
+.community svg {
   height: inherit;
   width: 100%;
 }
-svg text {
+.community svg text {
   text-anchor: middle;
 }
-svg .alpha {
+.community svg .alpha {
   fill: white;
 }
-svg .title {
+.community svg .title {
   font-size: 25px;
   font-family: "Montserrat";
   letter-spacing: 4px;
   text-transform: uppercase;
 }
-svg #base1 {
+.community svg #base1 {
   fill: white;
   -webkit-mask: url(#mask1);
   mask: url(#mask1);
 }
-svg #base2 {
+.community svg #base2 {
   fill: white;
   -webkit-mask: url(#mask2);
   mask: url(#mask2);
 }
-svg #base3 {
+.community svg #base3 {
   fill: white;
   -webkit-mask: url(#mask3);
   mask: url(#mask3);
 }
-svg #base4 {
+.community svg #base4 {
   fill: white;
   -webkit-mask: url(#mask4);
   mask: url(#mask4);
 }
-svg #base5 {
+.community svg #base5 {
   fill: white;
   -webkit-mask: url(#mask5);
   mask: url(#mask5);
 }
-svg #base6 {
+.community svg #base6 {
   fill: white;
   -webkit-mask: url(#mask6);
   mask: url(#mask6);
 }
-svg #base7 {
+.community svg #base7 {
   fill: white;
   -webkit-mask: url(#mask7);
   mask: url(#mask7);
 }
-svg #base8 {
+.community svg #base8 {
   fill: white;
   -webkit-mask: url(#mask8);
   mask: url(#mask8);
 }
-svg #base9 {
+.community svg #base9 {
   fill: white;
   -webkit-mask: url(#mask9);
   mask: url(#mask9);
 }
-svg #base10 {
+.community svg #base10 {
   fill: white;
   -webkit-mask: url(#mask10);
   mask: url(#mask10);
 }
-svg #base11 {
+.community svg #base11 {
   fill: white;
   -webkit-mask: url(#mask11);
   mask: url(#mask11);
 }
-svg #base12 {
+.community svg #base12 {
   fill: white;
   -webkit-mask: url(#mask12);
   mask: url(#mask12);
@@ -871,10 +871,10 @@ svg #base12 {
 }
 
 @media (max-width: 768px) {
-  figure {
+  .community figure {
     height: 420px;
   }
-  figcaption {
+  .community figcaption {
     width: 255px;
   }
 }
