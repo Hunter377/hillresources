@@ -51,7 +51,11 @@ body {
 }
 .navbar-brand>img {
   width: 125px;
+  transition: all 0.3s;
 }
+/*.navbar-brand>img:hover {
+  color: white;
+}*/
 .navbar-default .navbar-nav>li>a {
   color: #292C2F;
   transition: color .2s, background-color .2s;
@@ -95,7 +99,7 @@ body {
 
 /* Carousel base class */
 .carousel {
-  height: 500px;
+  height: 570px;
   margin-bottom: 35px;
 }
 /* Since positioning the image, we need to help out the caption */
@@ -106,7 +110,7 @@ body {
 
 /* Declare heights because of positioning of img element */
 .carousel .item {
-  height: 500px;
+  height: 570px;
   background-color: #777;
 }
 .carousel-inner > .item > img {
@@ -136,10 +140,24 @@ body {
   font-style: italic;
 }
 
+.carousel-caption p {
+  margin-bottom: 20px;
+  font-size: 22px;
+  line-height: 1.4;
+  text-shadow: 2px 2px 2px #202020;
+}
+
+.carousel-caption {
+  padding-bottom: 80px;
+}
+
 @media (max-width: 991px) {
-  #carousel-1 img {
-    top: 0;
-    height: 500px;
+  #carousel-1 img.first-slide {
+    display: none;
+  }
+  .home-overlay {
+    background-size: cover;
+    background-image: url(../img/backgrounds/Homepage2.jpg);
   }
 }
 
@@ -1112,6 +1130,9 @@ svg #base12 {
   /* Navbar positioning foo */
   .navbar-wrapper {
     padding-top: 20px;
+  }
+  .container {
+    width: 100%;
   }
   .navbar-wrapper .container {
     padding-right: 15px;
