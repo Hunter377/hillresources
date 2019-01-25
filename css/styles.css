@@ -1436,7 +1436,7 @@ body {
 .home-section .highlight {
   font-style: italic;
   font-weight: 700;
-  color: #0080B2;
+  color: #33B3E5;
 }
 
 .home-section .small-hr {
@@ -1486,6 +1486,7 @@ body {
   height: 260px;
   border: 1px solid #0080B2;
   position: relative;
+  text-decoration: none;
 }
 
 .home-section .double-box:after {
@@ -1496,19 +1497,76 @@ body {
   top: -20px;
   right: -20px;
   border: 1px solid #0080B2;
+  z-index: -1;
+  background-color: #444;
+}
+
+.home-section .double-box.alternate:after {
+  right: 20px;
+}
+
+.home-section .homepage-image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.home-section .homepage-image .the-image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  transition: transform 0.3s;
+}
+
+.home-section .homepage-image:hover .the-image {
+  transform: scale(1.2);
+}
+
+.home-section .homepage-image:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-color: #333;
+  opacity: 0.4;
 }
 
 .home-section .double-box-text {
-  margin-left: 20px;
   transform: translateY(-50%);
-  top: calc(50% - 20px);
+  top: 50%;
   position: relative;
-  padding: 0 20px;
+  padding: 0 30px;
+  pointer-events: none;
   z-index: 2;
 }
 
-.home-section .double-box-text a {
+.home-section .double-box-text h3 {
+  margin: 0;
+  color: white;
+}
+
+.home-section .double-box-text div {
   font-size: 24px;
+}
+
+.home-section .active-living-image .the-image {
+  background-image: url('../img/homepage/Active-Living.jpg');
+}
+
+.home-section .welcome-home-image .the-image {
+  background-image: url('../img/homepage/Welcome-Home.jpg');
+}
+
+.home-section .farm-life-image .the-image {
+  background-image: url('../img/homepage/Farm-Life.jpg');
+}
+
+.home-section .years-of-leadership-image .the-image {
+  background-image: url('../img/homepage/Years-of-Leadership.jpg');
 }
 
 .home-section .section-button {
